@@ -1,0 +1,5 @@
+Valve	KEYWORD1
+setState	KEYWORD2
+getState	KEYWORD2
+getMode	KEYWORD2
+setMode	KEYWORD2
