@@ -1,5 +1,5 @@
 # ArduValve
-Arduino Library to control electromagnetic valves
+Arduino library to control electromagnetic valves, for example in the garden.
 
 ```c++
 #include <valve.h>
