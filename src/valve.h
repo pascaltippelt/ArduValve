@@ -1,5 +1,5 @@
-#ifndef Morse_h
-#define Morse_h
+#ifndef Valve
+#define Valve
 
 #include "Arduino.h"
 
