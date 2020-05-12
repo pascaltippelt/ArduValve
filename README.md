@@ -19,3 +19,12 @@ void loop() {
   delay(5000);
 }
 ```
+Methods:
+
+```c++
+Valve(int pin);             //declare a new valve.
+bool getState();            //get the state of the valve (OPEN / CLOSE)
+void setState(bool state);  //set the state of the valve
+bool getMode();             //get the mode of the valve (AUTOMATIC / MANUAL)
+void setMode(bool mode);    //set the mode of the valve
+```
