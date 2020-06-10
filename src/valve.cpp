@@ -1,27 +1,27 @@
 #include "Arduino.h"
 #include "valve.h"
 
-Valve::Valve(int pin)
+MyValve::MyValve(int pin)
 {
 	_pin = pin;
 	pinMode(_pin, OUTPUT);
 	setMode(CLOSE);
 }
 
-bool Valve::getState() {
+bool MyValve::getState() {
 	return _state;
 }
 
-void Valve::setState(bool state) {
+void MyValve::setState(bool state) {
 	_state = state;
 	digitalWrite(_pin, _state);
 }
 
-bool Valve::getMode() {
+bool MyValve::getMode() {
 	return _mode;
 }
 
-void Valve::setMode(bool mode) {
+void MyValve::setMode(bool mode) {
 	_mode = mode;
 	setState(CLOSE);
 }

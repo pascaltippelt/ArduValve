@@ -14,10 +14,10 @@ struct valveTimer {
   int min_off = 420;  
 };
 
-class Valve
+class MyValve
 {
 	public:
-		Valve(int pin);
+		MyValve(int pin);
 		
 		bool getState();
 		void setState(bool state);
